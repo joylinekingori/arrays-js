@@ -9,13 +9,13 @@ console.log({ find2 });
 
 //join the array to string
 let myPets = ["cow", "bird", "snake", "dog"];
-let arrayJoin = myPets.join();
+let arrayJoin = myPets.join(" ");
 console.log({ arrayJoin });
 
 //sort array items
 let arr3 = [5, 9, 5, 3, 2, -3, 6, 8, 4, 1];
 console.log({ arr3 });
-sort = arr3.sort();
+sort = arr3.sort((a,b)=>a+b);
 console.log({ sort });
 //remove duplicates
 //(a)without duplicates
@@ -33,7 +33,7 @@ arr.forEach((item) => {
 console.log(origArr);
 console.log(arrDuplicate);
 
-
+///yes
 //search in the array
 let arr5 = ["the", "way", "x", 4];
 console.log({ arr5 });
@@ -51,9 +51,9 @@ wordArrange = splitword.sort();
 console.log(wordArrange.join(" "));
 
 //Insert "tomato" at the 5th index
-const newFruits = ["Mango", "Banana", "Kiwi", "Watermelon", "Orange", "Grapes", "Thornmelon", "Peach", "Avocado",];
-newFruits.splice(5, 0, "Tomato");
-console.log({ newFruits });
+const fruits = ["Mango", "Banana", "Kiwi", "Watermelon", "Orange", "Grapes", "Thornmelon", "Peach", "Avocado",];
+fruits.splice(5, 0, "Tomato");
+console.log({ fruits });
 
 
 
